@@ -1,6 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from '../public/logo192.png';
+
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+// import './App.css';
+import Navigation from './components/Navigation';
+import Home from "./components/pages/Home";
 
 function add(a: number, b: number){
   return a + b;
@@ -8,10 +12,14 @@ function add(a: number, b: number){
 
 function App() {
   return (
-    <div className="App">
-      <h2>Welcome to React and Typescript</h2>
-      <p>{add(10, 15)}</p>
-    </div>
+
+    <Router>
+      <Navigation />
+      <Routes>
+        <Route path='/' element={<Home />} />
+      </Routes>
+    </Router>
+    
   );
 }
 

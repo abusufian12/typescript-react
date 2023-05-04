@@ -1,3 +1,14 @@
+
+#React Redux Typescript 
+# adding redux 
+npm i redux react-redux
+
+# another package 
+npm install react-router-dom --save
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
