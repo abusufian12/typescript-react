@@ -3,6 +3,8 @@
 # adding redux 
 npm i redux react-redux
 
+npm i @reduxjs/toolkit
+
 # another package 
 npm install react-router-dom --save
 
