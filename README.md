@@ -1,5 +1,9 @@
 
+#if Install new react with typescript
+npx create-next-app@latest --typescript
+
 #React Redux Typescript 
+
 # adding redux 
 npm i redux react-redux
 
